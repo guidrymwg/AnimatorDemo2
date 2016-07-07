@@ -21,12 +21,12 @@ public class MotionRunner2 extends View {
     private static final int PLANET_COLOR = Color.argb(255, 0, 0, 0);
     private static final int SUN_COLOR = Color.argb(255, 255, 0, 0);
     private static final int nsteps = 600;                 // Number animation steps around circle
-    private static final int planetRadius = 4;             // Radius of each planet (pixels)
-    private static final int sunRadius = 7;                // Radius of Sun (pixels)
+    private static final int planetRadius = 8;             // Radius of each planet (pixels)
+    private static final int sunRadius = 14;               // Radius of Sun (pixels)
     private static final float X0 = 0;                     // X offset from center (pixels)
     private static final float Y0 = 0;                     // Y offset from center (pixels)
     private static final long delay = 20;                  // Milliseconds of delay in the update loop
-    private static final double RAD_CIRCLE = 2 * Math.PI;    // Number radians in a circle
+    private static final double RAD_CIRCLE = 2 * Math.PI;  // Number radians in a circle
     private static final double direction = -1;            // Orbit direction: counter-clockwise -1; clockwise +1
     private static final double fracWidth = 0.97;          // Fraction of screen width to use for display
     private static final int numPlanets = 5;               // Number of planets to include (up to 8)
